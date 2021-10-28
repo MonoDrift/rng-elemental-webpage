@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@font-face{
+    font-family: 'uni-sans';
+    src: url(Uni_Sans_Heavy.otf) format('openType');
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #282B30;
+}
+table{
+    
+    font-family: 'Source Code Pro', monospace;
+    color: #fff;
+    width: 80%;
+    border-collapse: collapse;
+    text-align: left;
+}
+td, th{
+    border: 1px solid #fff;
+    padding: 10px;
+}
+tr:nth-child(even){
+    background: #b1acac8f;
+}
+table a{
+    text-decoration: none;
+    color: #00ffea;
+}
+nav{
+    font-family: 'uni-sans';
+    padding: 12px;
+    margin-top: 13px;
+}
+nav ul li{
+    font-size: 20px;
+    display: inline;
+    margin-top: 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid #fff;
+}
+nav ul li a:hover{
+    background: #fff;
+    color: #282B30;
+}
+.title{
+    color: #fff;
+    font-family: 'uni-sans';
+}
+#random{
+    color: #fff;
+    float: right;
+}
